@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/624a3a98-1769-4610-bba0-398a4868b1fb/resourceGroups/tema3Craciun/providers/Microsoft.Web/sites/tema3Craciun",
+    "appService.deploySubpath": "."
+}

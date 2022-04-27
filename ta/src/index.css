@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #293B5F;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+b {
+    font-family: "Palette Mosaic";
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.card1 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0px 2px 20px 0px white;
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card1:hover {
+    box-shadow: 0px 4px 40px 0px white;
+}
+
+
+/* Add some padding inside the card container */
+
+.container1 {
+    padding: 2px 16px;
+}
